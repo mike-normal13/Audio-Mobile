@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC991E101DD816FD00B10428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC991E0F1DD816FD00B10428 /* AppDelegate.swift */; };
+		CC991E121DD816FD00B10428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC991E111DD816FD00B10428 /* ViewController.swift */; };
+		CC991E151DD816FD00B10428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC991E131DD816FD00B10428 /* Main.storyboard */; };
+		CC991E181DD816FD00B10428 /* Perc_Shaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC991E161DD816FD00B10428 /* Perc_Shaker.xcdatamodeld */; };
+		CC991E1A1DD816FD00B10428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC991E191DD816FD00B10428 /* Assets.xcassets */; };
+		CC991E1D1DD816FD00B10428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC991E1B1DD816FD00B10428 /* LaunchScreen.storyboard */; };
+		CC991E251DD81DB000B10428 /* PlaySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC991E241DD81DB000B10428 /* PlaySounds.swift */; };
+		CC991E271DD81ECC00B10428 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = CC991E261DD81ECC00B10428 /* Sounds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC991E0C1DD816FD00B10428 /* Perc-Shaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perc-Shaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC991E0F1DD816FD00B10428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC991E111DD816FD00B10428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC991E141DD816FD00B10428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC991E171DD816FD00B10428 /* Perc_Shaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Perc_Shaker.xcdatamodel; sourceTree = "<group>"; };
+		CC991E191DD816FD00B10428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC991E1C1DD816FD00B10428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC991E1E1DD816FD00B10428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC991E241DD81DB000B10428 /* PlaySounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySounds.swift; sourceTree = "<group>"; };
+		CC991E261DD81ECC00B10428 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = "Perc-Shaker/Sounds"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC991E091DD816FD00B10428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC991E031DD816FD00B10428 = {
+			isa = PBXGroup;
+			children = (
+				CC991E261DD81ECC00B10428 /* Sounds */,
+				CC991E0E1DD816FD00B10428 /* Perc-Shaker */,
+				CC991E0D1DD816FD00B10428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC991E0D1DD816FD00B10428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC991E0C1DD816FD00B10428 /* Perc-Shaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC991E0E1DD816FD00B10428 /* Perc-Shaker */ = {
+			isa = PBXGroup;
+			children = (
+				CC991E0F1DD816FD00B10428 /* AppDelegate.swift */,
+				CC991E111DD816FD00B10428 /* ViewController.swift */,
+				CC991E241DD81DB000B10428 /* PlaySounds.swift */,
+				CC991E131DD816FD00B10428 /* Main.storyboard */,
+				CC991E191DD816FD00B10428 /* Assets.xcassets */,
+				CC991E1B1DD816FD00B10428 /* LaunchScreen.storyboard */,
+				CC991E1E1DD816FD00B10428 /* Info.plist */,
+				CC991E161DD816FD00B10428 /* Perc_Shaker.xcdatamodeld */,
+			);
+			path = "Perc-Shaker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC991E0B1DD816FD00B10428 /* Perc-Shaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC991E211DD816FD00B10428 /* Build configuration list for PBXNativeTarget "Perc-Shaker" */;
+			buildPhases = (
+				CC991E081DD816FD00B10428 /* Sources */,
+				CC991E091DD816FD00B10428 /* Frameworks */,
+				CC991E0A1DD816FD00B10428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Perc-Shaker";
+			productName = "Perc-Shaker";
+			productReference = CC991E0C1DD816FD00B10428 /* Perc-Shaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC991E041DD816FD00B10428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mike;
+				TargetAttributes = {
+					CC991E0B1DD816FD00B10428 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E7J9HS334L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC991E071DD816FD00B10428 /* Build configuration list for PBXProject "Perc-Shaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC991E031DD816FD00B10428;
+			productRefGroup = CC991E0D1DD816FD00B10428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC991E0B1DD816FD00B10428 /* Perc-Shaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC991E0A1DD816FD00B10428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC991E1D1DD816FD00B10428 /* LaunchScreen.storyboard in Resources */,
+				CC991E1A1DD816FD00B10428 /* Assets.xcassets in Resources */,
+				CC991E271DD81ECC00B10428 /* Sounds in Resources */,
+				CC991E151DD816FD00B10428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC991E081DD816FD00B10428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC991E121DD816FD00B10428 /* ViewController.swift in Sources */,
+				CC991E251DD81DB000B10428 /* PlaySounds.swift in Sources */,
+				CC991E181DD816FD00B10428 /* Perc_Shaker.xcdatamodeld in Sources */,
+				CC991E101DD816FD00B10428 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC991E131DD816FD00B10428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC991E141DD816FD00B10428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC991E1B1DD816FD00B10428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC991E1C1DD816FD00B10428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC991E1F1DD816FD00B10428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC991E201DD816FD00B10428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC991E221DD816FD00B10428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7J9HS334L;
+				INFOPLIST_FILE = "Perc-Shaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "budge.Perc-Shaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC991E231DD816FD00B10428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7J9HS334L;
+				INFOPLIST_FILE = "Perc-Shaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "budge.Perc-Shaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC991E071DD816FD00B10428 /* Build configuration list for PBXProject "Perc-Shaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC991E1F1DD816FD00B10428 /* Debug */,
+				CC991E201DD816FD00B10428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC991E211DD816FD00B10428 /* Build configuration list for PBXNativeTarget "Perc-Shaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC991E221DD816FD00B10428 /* Debug */,
+				CC991E231DD816FD00B10428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC991E161DD816FD00B10428 /* Perc_Shaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC991E171DD816FD00B10428 /* Perc_Shaker.xcdatamodel */,
+			);
+			currentVersion = CC991E171DD816FD00B10428 /* Perc_Shaker.xcdatamodel */;
+			path = Perc_Shaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC991E041DD816FD00B10428 /* Project object */;
+}
